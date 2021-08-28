@@ -71,7 +71,7 @@ other type of genome annotation files, you are probably better off using
 packages from the R Bioconductor ecosystem,
 e.g. [rtracklayer](https://bioconductor.org/packages/release/bioc/html/rtracklayer.html).
 
-## How to extract a region from a WIG file
+## How to extract a region from a WIG file (outside of R)
 
 If you have a WIG file that comprises a long genomic region, but you are
 only interested on a small genomic region, here are the steps to extract
