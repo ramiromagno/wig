@@ -1,0 +1,20 @@
+Package: wig
+Type: Package
+Title: Import WIG Data into R in Long Format
+Version: 0.1.0
+Authors@R: c(
+    person(given = "Ramiro", family = "Magno",
+      email = "ramiro.magno@gmail.com",
+      role = c("aut", "cre"),
+      comment = c(ORCID = "0000-0001-5226-3441"))
+    )
+Description: Import WIG data into R in long format.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.1
+Imports: 
+    dplyr,
+    magrittr,
+    stringr,
+    tibble
