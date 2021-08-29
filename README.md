@@ -25,10 +25,13 @@ To import a WIG file, simply use the function `import_wig()`.
 
 The package `{wig}` provides an example WIG file that contains H3K4me3
 ChIP-Seq analysis of breast variant human mammary epithelial cell from
-RM035 (HS2615) using Illumina Genome Analyzer IIx. The file has already
-been trimmed to a region where the gene PIK3CA can be found: chromosome
-3, starting position 178,861,000 and ending position 178,894,000
-(assembly hg19). You can find more details about this sample in GEO:
+RM035 (HS2615) using Illumina Genome Analyzer IIx.
+
+The file has already been trimmed to a region where the gene PIK3CA can
+be found: chromosome 3, starting position 178,861,000 and ending
+position 178,894,000 (assembly hg19).
+
+You can find more details about this sample in GEO:
 [GSM613874](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM613874).
 
 ``` r
@@ -66,9 +69,11 @@ ggplot(data = wig_data, mapping = aes(x = pos, y = val)) +
 
 The function `import_wig()` is to be used with smallish files, i.e.,
 files whose genomic data comprises regions on the tens or few hundreds
-of kilobases. If you really need to do serious work with WIG, bigWIG, or
-other type of genome annotation files, you are probably better off using
-packages from the R Bioconductor ecosystem,
+of kilobases.
+
+If you really need to do serious work with WIG, bigWIG, or other type of
+genome annotation files, you are probably better off using packages from
+the R Bioconductor ecosystem,
 e.g. [rtracklayer](https://bioconductor.org/packages/release/bioc/html/rtracklayer.html).
 
 ## How to extract a region from a WIG file (outside of R)
