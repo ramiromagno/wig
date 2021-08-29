@@ -30,7 +30,7 @@ import_wig <- function(file_path, n = -1L) {
     if(identical(declaration$format, 'fixedStep')) {
       lst[[i]] <-
         expand_block_fixed_step(
-          value = as.integer(lines_lst[[i]][-1]),
+          value = as.double(lines_lst[[i]][-1]),
           chrom = declaration$chrom,
           start = declaration$start,
           step = declaration$step,
@@ -40,8 +40,8 @@ import_wig <- function(file_path, n = -1L) {
       m <- stringr::str_split(lines_lst[[i]][-1], pattern = '\\s+', simplify = TRUE)
       lst[[i]] <-
         expand_block_variable_step(
-          chr_pos = m[, 1],
-          value = m[, 2],
+          chr_pos = as.integer(m[, 1]),
+          value = as.double(m[, 2]),
           chrom = declaration$chrom,
           span = ifelse(is.na(declaration$span), 1, declaration$span)
         )
