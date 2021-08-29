@@ -27,7 +27,7 @@ You can install the current version of `{wig}` with:
 
 ``` r
 # install.packages("remotes")
-remotes::install_github("maialab/wig")
+remotes::install_github("ramiromagno/wig")
 ```
 
 ## Usage

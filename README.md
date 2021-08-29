@@ -16,7 +16,7 @@ You can install the current version of `{wig}` with:
 
 ``` r
 # install.packages("remotes")
-remotes::install_github("maialab/wig")
+remotes::install_github("ramiromagno/wig")
 ```
 
 ## Usage
@@ -41,7 +41,7 @@ wig_file <- system.file("extdata", file = 'hg19-pik3ca.wig', package = "wig", mu
 (wig_data <- import_wig(wig_file))
 #> # A tibble: 26,000 x 3
 #>    chr         pos   val
-#>    <chr>     <int> <int>
+#>    <chr>     <int> <dbl>
 #>  1 chr3  178861001     2
 #>  2 chr3  178861002     2
 #>  3 chr3  178861003     2
