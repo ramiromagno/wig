@@ -18,3 +18,6 @@ Imports:
     magrittr,
     stringr,
     tibble
+Suggests: 
+    spelling
+Language: en-US
