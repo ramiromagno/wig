@@ -23,23 +23,12 @@ remotes::install_github("ramiromagno/wig")
 
 To import a WIG file, simply use the function `import_wig()`.
 
-The package `{wig}` provides an example WIG file that contains H3K4me3
-ChIP-Seq analysis of breast variant human mammary epithelial cell from
-RM035 (HS2615) using Illumina Genome Analyzer IIx.
-
-The file has already been trimmed to a region where the gene PIK3CA can
-be found: chromosome 3, starting position 178,861,000 and ending
-position 178,894,000 (assembly hg19).
-
-You can find more details about this sample in GEO:
-[GSM613874](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM613874).
-
 ``` r
 library(wig)
 wig_file <- system.file("extdata", file = 'hg19-pik3ca.wig', package = "wig", mustWork = TRUE)
 
 (wig_data <- import_wig(wig_file))
-#> # A tibble: 26,000 x 3
+#> # A tibble: 26,000 × 3
 #>    chr         pos   val
 #>    <chr>     <int> <dbl>
 #>  1 chr3  178861001     2
@@ -64,6 +53,17 @@ ggplot(data = wig_data, mapping = aes(x = pos, y = val)) +
 ```
 
 <img src="man/figures/README-unnamed-chunk-3-1.svg" width="100%" />
+
+The file `hg19-pik3ca.wig` is an example WIG file that contains H3K4me3
+ChIP-Seq analysis of breast variant human mammary epithelial cell from
+RM035 (HS2615) using Illumina Genome Analyzer IIx. This file has already
+been trimmed to a region where the gene PIK3CA can be found: chromosome
+3, starting position 178,861,000 and ending position 178,894,000
+(assembly hg19).
+
+If you are interested, you can find more details about this sample in
+GEO:
+[GSM613874](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM613874).
 
 ## Admonition
 
