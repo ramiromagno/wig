@@ -10,6 +10,8 @@ Authors@R: c(
     )
 Description: Import WIG data into R in long format.
 License: MIT + file LICENSE
+URL: https://github.com/ramiromagno/wig
+BugReports: https://github.com/ramiromagno/wig/issues
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 7.1.2
