@@ -6,4 +6,4 @@
 
 0 errors ✓ | 0 warnings ✓ | 0 notes ✓
 
-* This is a first submission.
+* This is a first submission of a new package.
