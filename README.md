@@ -56,10 +56,10 @@ ggplot(data = wig_data, mapping = aes(x = pos, y = val)) +
 
 The file `hg19-pik3ca.wig` is an example WIG file that contains H3K4me3
 ChIP-Seq analysis of breast variant human mammary epithelial cell from
-RM035 (HS2615) using Illumina Genome Analyzer IIx. This file has already
-been trimmed to a region where the gene PIK3CA can be found: chromosome
-3, starting position 178,861,000 and ending position 178,894,000
-(assembly hg19).
+RM035 (HS2615) using Illumina Genome Analyzer IIx. This WIG file has
+already been trimmed to a region where the gene PIK3CA can be found:
+chromosome 3, starting position 178,861,000 and ending position
+178,894,000 (assembly hg19).
 
 If you are interested, you can find more details about this sample in
 GEO:
@@ -84,8 +84,8 @@ that region:
 
 1.  Download these two command-line tools: `bigWigToWig` and
     `wigToBigWig` from
-    <http://hgdownload.soe.ucsc.edu/admin/exe/linux.x86_64>. Navigate up
-    one-level if your Operating System (OS) is not Linux and find the
+    <http://hgdownload.soe.ucsc.edu/admin/exe/linux.x86_64/>. Navigate
+    up one-level if your Operating System (OS) is not Linux and find the
     compiled tools for your OS.
 2.  Start by converting your WIG file to BigWIG with `wigToBigWig`:
 

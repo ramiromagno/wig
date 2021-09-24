@@ -64,7 +64,10 @@ If you really need to do serious work with WIG, bigWIG, or other type of genome 
 If you have a WIG file that comprises a long genomic region, but you are only
 interested on a small genomic region, here are the steps to extract that region:
 
-1. Download these two command-line tools: `bigWigToWig` and `wigToBigWig` from [http://hgdownload.soe.ucsc.edu/admin/exe/linux.x86_64](http://hgdownload.soe.ucsc.edu/admin/exe/linux.x86_64). Navigate up one-level if your Operating System (OS) is not Linux and find the compiled tools for your OS.
+1. Download these two command-line tools: `bigWigToWig` and `wigToBigWig` from
+[http://hgdownload.soe.ucsc.edu/admin/exe/linux.x86_64/](http://hgdownload.soe.ucsc.edu/admin/exe/linux.x86_64/).
+Navigate up one-level if your Operating System (OS) is not Linux and find the
+compiled tools for your OS.
 2. Start by converting your WIG file to BigWIG with `wigToBigWig`:
 
 ```bash
