@@ -22,3 +22,14 @@ first base is 1, as specified in WIG files.
 expands the data into long format, i.e., the each observation in the returned
 tibble pertains the position of one single base.
 }
+\examples{
+# Import a WIG file
+wig_file <- system.file(
+              "extdata",
+              file = 'hg19-pik3ca.wig',
+              package = "wig",
+              mustWork = TRUE)
+
+import_wig(wig_file)
+
+}

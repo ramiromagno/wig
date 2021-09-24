@@ -14,6 +14,17 @@
 #'   first base is 1, as specified in WIG files.
 #'
 #' @md
+#'
+#' @examples
+#' # Import a WIG file
+#' wig_file <- system.file(
+#'               "extdata",
+#'               file = 'hg19-pik3ca.wig',
+#'               package = "wig",
+#'               mustWork = TRUE)
+#'
+#' import_wig(wig_file)
+#'
 #' @export
 import_wig <- function(file_path, n = -1L) {
 
