@@ -12,7 +12,7 @@ Description: Import WIG data into R in long format.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
-RoxygenNote: 7.1.1
+RoxygenNote: 7.1.2
 Imports: 
     dplyr,
     magrittr,
