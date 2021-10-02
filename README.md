@@ -62,8 +62,7 @@ chromosome 3, starting position 178,861,000 and ending position
 178,894,000 (assembly hg19).
 
 If you are interested, you can find more details about this sample in
-GEO:
-[GSM613874](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM613874).
+GEO: <https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM613874>.
 
 ## Admonition
 
@@ -84,7 +83,7 @@ that region:
 
 1.  Download these two command-line tools: `bigWigToWig` and
     `wigToBigWig` from
-    <http://hgdownload.soe.ucsc.edu/admin/exe/linux.x86_64/>. Navigate
+    <https://hgdownload.soe.ucsc.edu/admin/exe/linux.x86_64/>. Navigate
     up one-level if your Operating System (OS) is not Linux and find the
     compiled tools for your OS.
 2.  Start by converting your WIG file to BigWIG with `wigToBigWig`:
