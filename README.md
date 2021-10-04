@@ -4,6 +4,9 @@
 # wig
 
 <!-- badges: start -->
+
+[![CRAN
+status](https://www.r-pkg.org/badges/version/wig)](https://CRAN.R-project.org/package=wig)
 <!-- badges: end -->
 
 The goal of `{wig}` is to import
@@ -12,7 +15,14 @@ long format.
 
 ## Installation
 
-You can install the current version of `{wig}` with:
+Install `{wig}` from CRAN:
+
+``` r
+# Install from CRAN
+install.packages("wig")
+```
+
+Or the current development version directly from GitHub:
 
 ``` r
 # install.packages("remotes")
