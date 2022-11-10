@@ -13,7 +13,7 @@ License: MIT + file LICENSE
 URL: https://github.com/ramiromagno/wig
 BugReports: https://github.com/ramiromagno/wig/issues
 Encoding: UTF-8
-RoxygenNote: 7.1.2
+RoxygenNote: 7.2.1
 Imports: 
     dplyr,
     magrittr,
